@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="mt-20 bg-white max-w-6xl p-5  mx-auto text-gray-600 rounded-2xl ">
-        <div className=" flex flex-row justify-evenly ">
+        <div className=" flex flex-col space-y-4  justify-evenly ">
           <IpoDetails />
           <IpoTimeline />
         </div>
